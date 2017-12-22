@@ -21,17 +21,17 @@ void initSpaceship() {
 }
 
 void moveUp(Spaceship* spaceship) {
-	spaceship->y += speedY;
+	spaceship.y += speedY;
 }
 
 void moveDown(Spaceship *spaceship) {
-	spaceship->y -= speedY;
+	spaceship.y -= speedY;
 }
 
 void moveLeft(Spaceship *spaceship) {
-	spaceship->x -= speedX;
+	spaceship.x -= speedX;
 }
 
 void moveRight(Spaceship *spaceship) {
-	spaceship->x += speedX;
+	spaceship.x += speedX;
 }
