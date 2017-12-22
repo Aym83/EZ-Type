@@ -16,11 +16,11 @@ static int speedY = 20;
 static Spaceship spaceship;
 
 void initSpaceship() {
-	spaceship.x = 0;
-	spaceship.y = 0;
+	spaceship.x = LargeurFenetre()*0.2;
+	spaceship.y = HauteurFenetre()*0.5;
 }
 
-void moveUp(Spaceship* spaceship) {
+void moveUp(Spaceship *spaceship) {
 	spaceship->y += speedY;
 }
 
